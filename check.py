@@ -4,10 +4,10 @@ import mysql.connector
 
 # Connect to the MySQL database
 db = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="bro add ur password here and chek if host user and database names are same for you",
-    database="payroll"
+    host="which host u r using add here",
+    user="add your username here",
+    password="add your password here",
+    database="payroll is the database that i used for the sql"
 )
 
 # Create the main window
